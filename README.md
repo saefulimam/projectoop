@@ -1,8 +1,8 @@
-# projectoop
-Nama  : Saeful Imam Gunawan
-NIM   :18090039
-Kelas :5D
+# Project-UAS
+Kelas 5D
+## Final Project Mobile Programming & OOP2
+Saeful Imam Gunawan 18090039
+Yanuar Ardani N 18090031
 
-Nama : Yanuar Ardani Nurullah
-NIM  : 18090031
-Kelas: 5D
+
+
