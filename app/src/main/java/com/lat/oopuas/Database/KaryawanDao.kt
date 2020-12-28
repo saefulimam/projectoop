@@ -1,9 +1,9 @@
-package com.UAS.apps.Database
+package com.lat.oopuas.Database
 
 import androidx.room.*
 
 @Dao
-interface KaryawanPbk {
+interface KaryawanDao {
     @Insert
     suspend fun addKaryawan(karyawan: Karyawan)
 
@@ -14,5 +14,9 @@ interface KaryawanPbk {
     suspend fun deleteKaryawan(karyawan: Karyawan)
 
     @Query("SELECT * FROM karyawan")
-    suspend fun getAllUser(): List<Karyawan>
+    suspend fun getAllKaryawan(): List<Karyawan>
+
+    @Query("SELECT * FROM karyawan WHERE id=:karyawan_id")
+    suspend fun getKaryawan(karyawan_id: Int) : List<Karyawan>
+
 }

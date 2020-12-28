@@ -1,4 +1,4 @@
-package com.lat.myapplication
+package com.lat.oopuas
 
 import org.junit.Test
 
