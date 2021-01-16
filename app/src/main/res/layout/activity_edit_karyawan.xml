@@ -26,7 +26,7 @@
         android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_merk" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_nama" />
 
     <EditText
         android:id="@+id/txt_no_hp"
@@ -37,7 +37,7 @@
         android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_stok" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_nip" />
 
     <Button
         android:id="@+id/btn_saveKaryawan"
